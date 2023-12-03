@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-
 import {
     BrowserRouter as Router,
     Routes,
     Route,
     Link
 } from "react-router-dom";
+
+import '../styles/Header-nav.css';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -20,9 +21,9 @@ const Navigation = () => {
 
     return (
         <Router>
-        <Navbar bg="dark" data-bs-theme="dark" collapseOnSelect expand="lg" className="bg-body-tertiary">
+        <Navbar fixed="top" bg="dark" data-bs-theme="dark" collapseOnSelect expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="/about">Yemny Feliz</Navbar.Brand>
+                <Navbar.Brand className='brand'href="/">Yemny Feliz</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">

@@ -1,0 +1,11 @@
+/* --------------------Navigation------------------ */
+.nav-link {
+    font-size: 20px;
+}
+
+ .brand{
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-text);
+}

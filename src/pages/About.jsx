@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import profilePic from '../assets/profilepic.png';
+import '../styles/About.css';
 
 
 function About() {
@@ -18,6 +19,7 @@ return (
         <Row className="align-items-center">
             <Col md={6} className="text-center">
             <img src={profilePic}
+            id="profileImg"
                     alt='picture of me'
                     className='img-fluid rounded-circle'></img>
             </Col>
