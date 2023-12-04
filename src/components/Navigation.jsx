@@ -21,7 +21,7 @@ const Navigation = () => {
 
     return (
         <Router>
-        <Navbar fixed="top" bg="dark" data-bs-theme="dark" collapseOnSelect expand="lg" className="bg-body-tertiary">
+        <Navbar fixed="top" bg="dark" data-bs-theme="dark" collapseOnSelect expand="lg" className="bg-body-tertiary navbar">
             <Container>
                 <Navbar.Brand className='brand'href="/">Yemny Feliz</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

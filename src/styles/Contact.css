@@ -1,0 +1,25 @@
+
+h1 {
+    /* margin-top: 10%; */
+    text-align: center;
+    /* position: relative; */
+}
+
+.contact {
+    /* margin-top: 10%; */
+    height : 100vh;
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+
+}
+
+.textarea {
+    height: 250px;
+  
+}
+
+.form {
+    margin: auto;
+    width: 70%;
+}
