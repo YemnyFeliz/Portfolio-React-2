@@ -1,33 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Dancing+Script:wght@600&family=Handjet:wght@300&family=Hedvig+Letters+Serif:opsz@12..24&family=Lobster&family=Nanum+Myeongjo&family=Playfair+Display:ital,wght@0,400;1,800&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     /* font-family: "Outfit", Arial, Helvetica, sans-serif; */
+    font-family: 'Arapey', Arial, Helvetica, sans-serif ;
 }
 
 :root {
 
     /* Colors */
-    --color-text: #adb5bd;
-    --color-primary: #576cbc;
-    --color-seconday: #19376d;
-    --color-dark: #0b2447;
-    --color-bg: #edf2fb;
+    --color-text: #ff4d6d ;
+    --color-header: #e9ecef;
+    --color-primary: #f4bbc9;
+    --color-seconday: #f191ac;
+    --color-dark: #f6a6bb;
+    --color-bg: #fae6e7;
+    
+  
     
 
     /* Fonts */
-    /* --font-roboto: "Roboto"; */
+    --font-Arapey: "Arapey";
 
 }
 .App {
-    background-color: var(--color-bg);
+    background: linear-gradient(#fae6e7, #f4bbc9);
+    font: var(--font-Arapey);
+    /* background-color: var(--color-bg); */
+    /* --bs-bg-opacity: 1,
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important; */
     width: 100%;
     height: 100%;
-
-    color: white;
+    /* color: white; */
     overflow: hidden;
+    color: var(--color-text);
 }
 
-body {
+/* body {
     background-color: var(--color-bg);
-}
+} */
+
+/* #e9ecef */

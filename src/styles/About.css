@@ -7,15 +7,28 @@
     height: 45vh;
 
 }
-
+h1{
+    margin-top: 5%;
+    /* font-style: italic; */
+    font-weight: bolder;
+    font-size: 44px;
+    text-transform: uppercase;
+    /* color: whitesmoke; */
+    
+}
+.pHeader{
+    font-size: 24px;
+}
 .main-info {
-    padding-top: 10%;
+    padding-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #6c757d;
+    /* color: #f1faee; */
+    color: var(--color-header);
+    
 
 }
 .about-section {
@@ -24,15 +37,17 @@
 }
 
 /* --------------------ABOUT------------------ */
-h2 {
-    font-size: 36px;
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
+.aboutH {
+    /* font-weight: normal; */
+    font-size: 30px;
+    /* letter-spacing: 1.75px; */
     text-transform: uppercase;
     margin-top: 3%;
     text-align: center;
     padding-bottom: 3rem;
+    /* color: #f1faee; */
+
+    
 }
 
 h3 {
@@ -54,5 +69,5 @@ p {
     flex-direction: column;
     margin-left: 3%;
     font-size: 24px;
-    color: var( --color-text);
+    /* color: var( --color-text); */
 }

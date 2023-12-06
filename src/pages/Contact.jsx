@@ -60,13 +60,13 @@ function Contact() {
 
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Example textarea</Form.Label>
-                <Form.Control className="textarea" as="textarea"
+                <Form.Control className="text" as="textarea"
                   value={text} onChange={(e) => setText(e.target.value)}
                   rows={3} />
               </Form.Group>
 
               <Button variant="dark" type="submit"
-                size="lg" className='btn'>
+                size="lg" className='submitbtn'>
                 Send
               </Button>
             </Form>

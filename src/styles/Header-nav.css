@@ -1,15 +1,32 @@
 /* --------------------Navigation------------------ */
-.nav-link {
+/* .nav-link {
     font-size: 20px;
-}
+} */
 
- .brand{
+ a.navbar-brand {
     font-size: 28px;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: none;
     color: var(--color-text);
+    font-weight: bold;
+    /* color: var(--color-header); */
 }
 
-/* .navbar {
-   
-} */
+a.nav-link {
+    font-size: 24px;
+    color: var(--color-text);
+    
+    
+}
+
+a.nav-link:hover {
+    /* color: #fefeff; */
+    color: var(--color-header);
+}
+
+nav.bg-body-tertiary{
+    background-color: var(--color-seconday) !important;
+    height: 7%;
+    
+}
+

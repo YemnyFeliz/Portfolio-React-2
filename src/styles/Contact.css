@@ -14,7 +14,7 @@ h1 {
 
 }
 
-.textarea {
+.text {
     height: 250px;
   
 }
@@ -24,7 +24,7 @@ h1 {
     width: 70%;
 }
 
-.btn {
+.submitbtn {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -10,12 +10,12 @@ return (
     <div className='header-wraper'>
         <div className='main-info'>
             <h1>Full Stack Web Developer</h1>
-            <p> Hi, I'm Yemny Feliz, an enthusiastic developer with backend and frontend experience </p>
+            <p className='pHeader'> Hi, I'm Yemny Feliz, an enthusiastic developer with backend and frontend experience </p>
         </div>
     </div>
 
     <Container id="about" className="about-section">
-        <h2>About Me</h2>
+        <h2 className='aboutH'>About Me</h2>
         <Row className="align-items-center">
             <Col md={6} className="text-center">
             <img src={profilePic}
