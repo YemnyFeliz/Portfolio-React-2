@@ -12,10 +12,13 @@
     /* color: var(--color-header); */
 }
 
+a.navbar-brand:hover, a.navbar-brand:active {
+    color: #ff4d6d;
+}
+
 a.nav-link {
     font-size: 24px;
     color: var(--color-text);
-    
     
 }
 

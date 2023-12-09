@@ -21,7 +21,7 @@ return (
             <img src={profilePic}
             id="profileImg"
                     alt='picture of me'
-                    className='img-fluid rounded-circle'></img>
+                    className='img-fluid '></img>
             </Col>
             <Col md={6}>
                 <h3>Welcome!</h3>

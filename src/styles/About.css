@@ -10,6 +10,7 @@
 h1{
     margin-top: 5%;
     /* font-style: italic; */
+    text-shadow: 1px 1px 1px #000000;
     font-weight: bolder;
     font-size: 44px;
     text-transform: uppercase;
@@ -18,6 +19,7 @@ h1{
 }
 .pHeader{
     font-size: 24px;
+    text-shadow: 1px 2px 1px #000000;
 }
 .main-info {
     padding-top: 5%;
@@ -33,6 +35,7 @@ h1{
 }
 .about-section {
     padding: 2rem;
+    margin-bottom: 4rem;
     /* background-color: ; */
 }
 
@@ -61,6 +64,8 @@ h3 {
     height: 30rem;
     /* border-radius: 50%; */
     padding: 0.3rem;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.60rem black);
     /* border: 1px solid black; */
 }
 
