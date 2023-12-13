@@ -16,7 +16,7 @@ return (
 
     <Container id="about" className="about-section">
         <h2 className='aboutH'>About Me</h2>
-        <Row className="align-items-center">
+        <Row className="align-items-center" >
             <Col md={6} className="text-center">
             <img src={profilePic}
             id="profileImg"

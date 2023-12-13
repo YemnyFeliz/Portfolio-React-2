@@ -9,6 +9,7 @@ import {
 } from 'mdb-react-ui-kit';
 import '../styles/Footer.css';
 
+
 export default function Footer() {
   return (
     <MDBFooter className='bg-light text-center text-white' >
