@@ -2,7 +2,8 @@ import passwordGenerator from '../assets/passwordGenerator.png';
 import timedQuizz from '../assets/timedQuizz.png';
 import dogFinder from '../assets/dogFinder.png';
 import noteTaker from '../assets/noteTaker.png';
-import techblogMVC from '../assets/techblog.png';
+import JATE from '../assets/JATE.png';
+import techblogMVC from '../assets/techblog.png'
 
 const projects = [
 
