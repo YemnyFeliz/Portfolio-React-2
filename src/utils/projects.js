@@ -2,8 +2,7 @@ import passwordGenerator from '../assets/passwordGenerator.png';
 import timedQuizz from '../assets/timedQuizz.png';
 import dogFinder from '../assets/dogFinder.png';
 import noteTaker from '../assets/noteTaker.png';
-import bookWorm from '../assets/bookWorm.png';
-import JATE from '../assets/JATE.png';
+import techblogMVC from '../assets/techblog.png';
 
 const projects = [
 
@@ -48,12 +47,12 @@ const projects = [
     },
 
     {
-        title: 'Bookworm-Corner',
+        title: 'Tech-Blog-MVC',
         description:
-        'A website where users can search for books and add them to their favorites',
-        link: 'https://bookworm-corner-8f20cb894ad7.herokuapp.com/',
-        repo: 'https://github.com/Misachka/Bookworm-corner',
-        image: bookWorm,
+        'A website where users can sign up and login to read and share posts and comments about technology.',
+        link: 'https://techblog-yf-0ce34b9af3ec.herokuapp.com/',
+        repo: 'https://github.com/YemnyFeliz/Tech-Blog-MVC',
+        image: techblogMVC,
 
     },
 

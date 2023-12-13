@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { MDBIcon } from 'mdb-react-ui-kit';
+import ResumeLink from '../assets/YemnyFelizResume.pdf';
 
 
 
@@ -20,7 +21,7 @@ function Resume() {
                     <div className="container mt-5 text-center">
                         <h1>Resume</h1>
                         <p>
-                            <a href='#resumelink' >
+                            <a id='pdf'href={ResumeLink} download={ResumeLink}>
                                 Resume.pdf
                             </a>
                         </p>

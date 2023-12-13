@@ -1,11 +1,8 @@
-.portfolio-section {
-  
-}
+
 .card {
     text-align: center;
     max-width: 24rem;
     height: 400px;
-    /* transition: filter 0.3s; */
     position: relative;
     margin: 1rem;
     margin-bottom: 5rem;
@@ -28,7 +25,6 @@
     flex-direction: column;
     height: 100%;
     padding: 10px;
-    /* overflow: hidden; */
   }
 
   .button-container {
@@ -40,6 +36,11 @@
 
   .btn-primary {
     overflow: hidden;
+ }
+
+ .btn-primary:hover{
+  background-color: var(--color-text);
+  
  }
 
  h2 {
