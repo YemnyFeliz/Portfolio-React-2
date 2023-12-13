@@ -9,11 +9,11 @@ const Project = ({ title, description, image, link, repo }) => {
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>
           <div className="button-container">
-            <Button className="button" href={link} target="_blank" rel="noopener noreferrer">
+            <Button className="button btn-secondary" href={link} target="_blank" rel="noopener noreferrer">
               {/* <CgWebsite className="icon m-1"/> */}
               web
             </Button>
-            <Button className="button" href={repo} target="_blank" rel="noopener noreferrer">
+            <Button className="button btn-secondary" href={repo} target="_blank" rel="noopener noreferrer">
               {/* <FaGithub className="icon"/> Github */}
               GitHub
             </Button>

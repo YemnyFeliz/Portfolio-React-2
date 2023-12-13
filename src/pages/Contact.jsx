@@ -44,14 +44,14 @@ function Contact() {
             >
 
               <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                <Form.Label>Name</Form.Label>
+                <Form.Label className='textField'>Name:</Form.Label>
                 <Form.Control size="lg" type="text"
                   value={name} onChange={(e) => setName(e.target.value)}
                   placeholder="your name" />
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                <Form.Label>Email address</Form.Label>
+                <Form.Label className='textField'>Email address:</Form.Label>
                 <Form.Control className="" size="lg" type="email"
                   value={email} onChange={(e) => setEmail(e.target.value)}
                   placeholder="name@example.com" />
@@ -59,15 +59,16 @@ function Contact() {
 
 
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                <Form.Label>Example textarea</Form.Label>
+                <Form.Label></Form.Label>
                 <Form.Control className="text" as="textarea"
                   value={text} onChange={(e) => setText(e.target.value)}
+                  placeholder="Your message"
                   rows={3} />
               </Form.Group>
 
-              <Button variant="dark" type="submit"
+              <Button variant="secondary" type="submit"
                 size="lg" className='submitbtn'>
-                Send
+                Send Message
               </Button>
             </Form>
           </Col>
