@@ -36,7 +36,6 @@ h1{
 .about-section {
     padding: 2rem;
     margin-bottom: 4rem;
-    /* background-color: ; */
 }
 
 /* --------------------ABOUT------------------ */
@@ -75,4 +74,42 @@ p {
     margin-left: 3%;
     font-size: 24px;
     /* color: var( --color-text); */
+}
+
+
+
+/* ------------------Responsive------------------- */
+
+@media (max-width: 320px) {
+    #profileImg {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-wraper{
+        height: 35vh;
+
+    }
+
+    .main-info {
+        margin-top: 3rem;
+    }
+
+    h1{
+        font-size: 36px;
+        margin-top: 3rem;
+    }
+
+    .pHeader {
+        font-size: 20px;
+    }
+
+    #profileImg {
+        margin-bottom: 2rem;
+    }
+
+    .aboutH {
+        font-size: 26px;
+    }
 }

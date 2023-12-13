@@ -3,7 +3,7 @@ import {
     BrowserRouter as Router,
     Routes,
     Route,
-    Link
+    Link,
 } from "react-router-dom";
 
 import '../styles/Header-nav.css';
@@ -19,16 +19,22 @@ import Contact from '../pages/Contact';
 import Portfolio from '../pages/Portfolio';
 import Resume from '../pages/Resume';
 
-const Navigation = () => {
 
+const Navigation = () => {
+   
     return (
         <Router>
             
                 <Navbar fixed="top" collapseOnSelect expand="lg" className="bg-body-tertiary" >
                     <Container>
-                        <Navbar.Brand className='brand' href="/">Yemny Feliz</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                        <Navbar.Collapse id="responsive-navbar-nav">
+                        <Navbar.Brand  className='brand' href="/">Yemny Feliz</Navbar.Brand>
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav navbarScroll" 
+                        // onClick={() => setShowLinks(!showLinks)}
+                        className='ms-auto my-2 my-md-0' style={{ maxHeight:'100px', backgroundColor:'#f6a6bb'}}
+                        navScroll
+                        
+                        />
+                        <Navbar.Collapse id="responsive-navbar-nav" >
                             <Nav className="me-auto">
                             </Nav>
                             <Nav>
