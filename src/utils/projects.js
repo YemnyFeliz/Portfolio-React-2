@@ -3,7 +3,8 @@ import timedQuizz from '../assets/timedQuizz.png';
 import dogFinder from '../assets/dogFinder.png';
 import noteTaker from '../assets/noteTaker.png';
 import JATE from '../assets/JATE.png';
-import techblogMVC from '../assets/techblog.png'
+import techblogMVC from '../assets/techblog.png';
+import codeChronicles from '../assets/shortvid.gif';
 
 const projects = [
 
@@ -66,6 +67,15 @@ const projects = [
         image: JATE,
 
     },
+
+    {
+        title: 'CodeChronicles',
+        description:
+        'A platform where developers can create, edit, and delete their posts and read all the posts created there.',
+        link: 'https://codechronicles2.onrender.com/',
+        repo: 'https://github.com/Misachka/CodeChronicles',
+        image: codeChronicles,
+    }
 
 ];
 
